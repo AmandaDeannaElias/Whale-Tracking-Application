@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Orca Tracking</title>
+    <script type="text/javascript" src="jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="javascript/googlemap.js"></script>
+    <script type="text/javascript" src="javascript/whaleapi.js"></script>
+    <link rel="stylesheet" href="css/whaleapi.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="headerimage">
+            <img src="images/orcasinBC.jpg" alt="A pod of Orca whales swimming in BC by mountains" />
+            <div id="headingstyling">
+                <h1>The Orca Tracking App</h1>
+                <h2>For Orca Enthusiasts</h2>
+            </div>
+        </div>
+
+    </header>
+    <div id="topsection">
+        <div id="orcainfo">
+            <h3>See the whales without the tanks</h3>
+            <p>Orcas are among the most intelligent animals on the planet and have captivated us for centuries. With
+                their family-oriented and matriachal
+                based societies, they are likely to be seen in large groups or pods. These animals are extremely playful,
+                engaging in activities such as breaching,
+                spyhopping and tail slapping! This app has been created to show the world that these animals are
+                accessible to observe without the need of
+                tanks and concrete slabs.
+            </p>
+        </div>
+        <div id="breachingwhaleimg">
+            <img src="images/orcabreaching2.jpg" alt="An orca breaching out of the water" height=260>
+        </div>
+    </div>
+    <div id="mapheading">
+    <h3>Click a whale on the map to see what people have submitted about their sightings!</h3>
+</div>
+        <div id="mapstyle">
+            <div id="map"></div>
+        </div>
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAsJmq-pvVfSd_HY42uBl1TPBERUGPwL4&callback=initializeMap"></script>
+        <div id="datainfo">
+            <p>
+                All data has been retrieved from <a href="https://whalemuseum.org/">The Whale Museum's</a> API. This
+                data is coming from
+                people who have spotted the whales in the wild and provided details including but not limited to coordinates, how many were
+                spotted and the location.
+            </p>
+        </div>
+        <div id="iconinfo">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                <footer>
+                    <p>&copy; Amanda Elias April 2021</p>
+                </footer>
+</body>
+
+</html>

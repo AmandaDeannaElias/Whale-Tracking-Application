@@ -1,0 +1,118 @@
+body{
+    max-width: 1300px;
+}
+
+#map{
+    height: 500px;
+    width: 80%;
+}
+
+header{
+    border: 100px solid black;
+    border-radius: 25px;
+    height: 360px;
+}
+
+#headerimage img{
+    position: absolute;
+    height:370px;
+    width: 1050px;
+}
+
+#headingstyling{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    position:absolute;
+    text-align: center;
+    font-family: consolas;
+    margin-left: 50px;
+}
+
+#headingstyling h1{
+    font-weight:10px;
+    font-size: 42px;
+}
+#mapstyle{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+#orcainfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vw;
+    width: 450px;
+    border: 20px solid black;
+    border-radius: 25px;
+    height: 260px;
+    text-align: center;
+}
+
+#orcainfo h3{
+    font-size: 25px;
+    font-family: 'Gothic A1', sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#orcainfo p{
+    font-size: 15px;
+    font-family: 'Gothic A1', sans-serif;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#topsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#breachingwhaleimg{
+    margin-top: 4vw;
+    border: 20px solid black;
+    border-radius: 25px;
+    height: 260px;
+}
+
+#mapheading{
+    font-size: 25px;
+    font-family: 'Gothic A1', sans-serif;
+    text-align: center;
+    margin-top: 6vw;
+    margin-bottom: 4vw;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+#datainfo{
+    font-size: 13px;
+    font-family: 'Gothic A1', sans-serif;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 2vw;
+}
+
+#iconinfo{
+    font-size: 12px;
+    font-family: 'Gothic A1', sans-serif;
+    text-align: center;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    font-family: 'Gothic A1', sans-serif;
+    height: 50px;
+}
+footer p{
+    padding-top: 20px;
+ }
